@@ -1,0 +1,42 @@
+body, html
+{
+  height: 100%;
+  margin: 0;
+}
+/*For the bg image*/
+.bg
+{
+  background-image: url("https://scontent.fmnl17-4.fna.fbcdn.net/v/t1.6435-9/119897382_1675886825907345_3653725043929878458_n.png?_nc_cat=105&ccb=1-3&_nc_sid=730e14&_nc_eui2=AeFsX-yxcjtcH8P3_xJ6KyQoVUyYBCHR1BRVTJgEIdHUFAZLSHAxR5keVO8e8p7CqSk&_nc_ohc=yvJwX7_zKUIAX9XXYJL&tn=HK7s5yu0riZjizrq&_nc_ht=scontent.fmnl17-4.fna&oh=e52fbe53df2b599706593c36295fd545&oe=60E0B269");
+
+ /* For the full height */
+  height: 50%; 
+
+/* center and scaling */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p
+{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    margin: 0;
+}
+
+li
+{
+list-style: none;
+}
+.dulo
+{
+  position: fixed;
+  text-align: center;
+  bottom: 0px; 
+    width: 100%;
+  font-size: 18px;
+  background-color:#7abcff;
+  background: -moz-linear-gradient(top, #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6+ */
+    background: -webkit-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Chrome10+,Safari5.1+ */
+  
+}
